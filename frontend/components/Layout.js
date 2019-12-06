@@ -24,7 +24,7 @@ class Layout extends React.Component {
             <div>
                 <Head>
                     <title>{title}</title>
-                    <meta charset="tuf-8" />
+                    <meta charSet="tuf-8" />
                     <meta
                         name="viewport"
                         content="initial-scale=1.0, width=device-width"
