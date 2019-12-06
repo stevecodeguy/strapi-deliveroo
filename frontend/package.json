@@ -6,6 +6,8 @@
     "express": "^4.17.1",
     "gql": "^1.1.2",
     "graphql": "^14.5.8",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
     "next": "^9.1.4",
     "next-apollo": "^3.1.10",
     "nextjs": "^0.0.3",
@@ -15,6 +17,7 @@
     "reactstrap": "^8.2.0",
     "recompose": "^0.30.0",
     "serialize-javascript": "^2.1.1",
+    "strapi-sdk-javascript": "^0.3.3",
     "tunnel-agent": "^0.6.0"
   },
   "scripts": {
