@@ -2,7 +2,7 @@ import gql from "graphql-tag";
 import { withRouter } from "next/router";
 import { graphql } from "react-apollo";
 import { compose } from "recompose";
-import { withContext } from "../components/Context/AppProvider";
+// import { withContext } from "../components/Context/AppProvider";
 import {
     Button,
     Card,
@@ -15,8 +15,8 @@ import {
     Col,
     Row
 } from "reactstrap";
-import Cart from "../components/Cart/Cart";
-import defaultPage from "../hocs/defaultPage";
+// import Cart from "../components/Cart/Cart";
+// import defaultPage from "../hocs/defaultPage";
 import { defaultCipherList } from "constants";
 
 class Restaurants extends React.Component {
@@ -94,7 +94,7 @@ class Restaurants extends React.Component {
                         </Col>
                         <Col xs="3" style={{ padding: 0 }}>
                             <div>
-                                <Cart isAuthenticated={isAuthenticated} />
+                                {/* <Cart isAuthenticated={isAuthenticated} /> */}
                             </div>
                         </Col>
                     </Row>
@@ -128,8 +128,8 @@ const GET_RESTAURANT_DISHES = gql`
 
 export default compose(
     withRouter,
-    defaultPage,
-    withContext,
+    // defaultPage,
+    // withContext,
     graphql(GET_RESTAURANT_DISHES, {
         options: props => {
             return {

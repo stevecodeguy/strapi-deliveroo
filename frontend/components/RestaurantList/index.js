@@ -47,8 +47,8 @@ const RestaurantList = (
                         </CardBody>
                         <div className="card-footer">
                         <Link
-                            as={`/restaurants/${res._id}`}
-                            href={`/restaurants?id=${res._id}`}
+                            as={`/restaurants/${res.id}`}
+                            href={`/restaurants?id=${res.id}`}
                         >
                             <a className="btn btn-primary">View</a>
                         </Link>
