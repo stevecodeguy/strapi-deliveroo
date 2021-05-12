@@ -15,7 +15,7 @@
     "knex": "latest",
     "mysql": "latest",
     "serialize-javascript": "^2.1.1",
-    "strapi": "3.0.0-beta.17.8",
+    "strapi": "3.2.5",
     "strapi-admin": "3.0.0-beta.17.8",
     "strapi-hook-bookshelf": "3.0.0-beta.17.8",
     "strapi-hook-knex": "3.0.0-beta.17.8",
